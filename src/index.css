@@ -24,3 +24,17 @@ input,
 select {
   font: inherit;
 }
+
+button,
+input {
+  transition:
+    box-shadow 160ms ease,
+    border-color 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease;
+}
+
+button:hover,
+input:hover {
+  box-shadow: 0 0 0 1px rgba(212, 212, 212, 0.9);
+}
