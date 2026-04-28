@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&family=Raleway:wght@500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  color: #0f172a;
+  background:
+    radial-gradient(circle at top, rgba(37, 99, 235, 0.08), transparent 24%),
+    linear-gradient(180deg, #ffffff 0%, #f8fbff 48%, #f3f7fb 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: transparent;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
